@@ -23,27 +23,27 @@ Partial Class frmnavigasikaryawan
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btmanajemenuserakun = New System.Windows.Forms.Button()
+        Me.btmanajemenjadwal = New System.Windows.Forms.Button()
+        Me.btmanajemenjurusan = New System.Windows.Forms.Button()
+        Me.btmanajemensiswa = New System.Windows.Forms.Button()
+        Me.btmanajemenkaryawan = New System.Windows.Forms.Button()
         Me.lbwelcome = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
+        Me.btlaporanhasilujian = New System.Windows.Forms.Button()
+        Me.btkoreksiujian = New System.Windows.Forms.Button()
+        Me.btalokasipesertaujian = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.Button5)
-        Me.GroupBox1.Controls.Add(Me.Button4)
-        Me.GroupBox1.Controls.Add(Me.Button3)
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
+        Me.GroupBox1.Controls.Add(Me.btmanajemenuserakun)
+        Me.GroupBox1.Controls.Add(Me.btmanajemenjadwal)
+        Me.GroupBox1.Controls.Add(Me.btmanajemenjurusan)
+        Me.GroupBox1.Controls.Add(Me.btmanajemensiswa)
+        Me.GroupBox1.Controls.Add(Me.btmanajemenkaryawan)
         Me.GroupBox1.Location = New System.Drawing.Point(15, 40)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(250, 177)
@@ -51,50 +51,50 @@ Partial Class frmnavigasikaryawan
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Manajemen Master Data"
         '
-        'Button5
+        'btmanajemenuserakun
         '
-        Me.Button5.Location = New System.Drawing.Point(6, 145)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(238, 23)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "User Account"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.btmanajemenuserakun.Location = New System.Drawing.Point(6, 145)
+        Me.btmanajemenuserakun.Name = "btmanajemenuserakun"
+        Me.btmanajemenuserakun.Size = New System.Drawing.Size(238, 23)
+        Me.btmanajemenuserakun.TabIndex = 4
+        Me.btmanajemenuserakun.Text = "User Account"
+        Me.btmanajemenuserakun.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btmanajemenjadwal
         '
-        Me.Button4.Location = New System.Drawing.Point(6, 116)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(238, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Jadwal Ujian"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btmanajemenjadwal.Location = New System.Drawing.Point(6, 116)
+        Me.btmanajemenjadwal.Name = "btmanajemenjadwal"
+        Me.btmanajemenjadwal.Size = New System.Drawing.Size(238, 23)
+        Me.btmanajemenjadwal.TabIndex = 3
+        Me.btmanajemenjadwal.Text = "Jadwal Ujian"
+        Me.btmanajemenjadwal.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btmanajemenjurusan
         '
-        Me.Button3.Location = New System.Drawing.Point(6, 87)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(238, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "Jurusan"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btmanajemenjurusan.Location = New System.Drawing.Point(6, 87)
+        Me.btmanajemenjurusan.Name = "btmanajemenjurusan"
+        Me.btmanajemenjurusan.Size = New System.Drawing.Size(238, 23)
+        Me.btmanajemenjurusan.TabIndex = 2
+        Me.btmanajemenjurusan.Text = "Jurusan"
+        Me.btmanajemenjurusan.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btmanajemensiswa
         '
-        Me.Button2.Location = New System.Drawing.Point(6, 58)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(238, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Calon Siswa"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btmanajemensiswa.Location = New System.Drawing.Point(6, 58)
+        Me.btmanajemensiswa.Name = "btmanajemensiswa"
+        Me.btmanajemensiswa.Size = New System.Drawing.Size(238, 23)
+        Me.btmanajemensiswa.TabIndex = 1
+        Me.btmanajemensiswa.Text = "Calon Siswa"
+        Me.btmanajemensiswa.UseVisualStyleBackColor = True
         '
-        'Button1
+        'btmanajemenkaryawan
         '
-        Me.Button1.Location = New System.Drawing.Point(6, 29)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(238, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Karyawan dan Guru"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btmanajemenkaryawan.Location = New System.Drawing.Point(6, 29)
+        Me.btmanajemenkaryawan.Name = "btmanajemenkaryawan"
+        Me.btmanajemenkaryawan.Size = New System.Drawing.Size(238, 23)
+        Me.btmanajemenkaryawan.TabIndex = 0
+        Me.btmanajemenkaryawan.Text = "Karyawan dan Guru"
+        Me.btmanajemenkaryawan.UseVisualStyleBackColor = True
         '
         'lbwelcome
         '
@@ -107,9 +107,9 @@ Partial Class frmnavigasikaryawan
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.Button8)
-        Me.GroupBox2.Controls.Add(Me.Button9)
-        Me.GroupBox2.Controls.Add(Me.Button10)
+        Me.GroupBox2.Controls.Add(Me.btlaporanhasilujian)
+        Me.GroupBox2.Controls.Add(Me.btkoreksiujian)
+        Me.GroupBox2.Controls.Add(Me.btalokasipesertaujian)
         Me.GroupBox2.Location = New System.Drawing.Point(271, 40)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(250, 177)
@@ -117,32 +117,32 @@ Partial Class frmnavigasikaryawan
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Manajemen Ujian"
         '
-        'Button8
+        'btlaporanhasilujian
         '
-        Me.Button8.Location = New System.Drawing.Point(6, 87)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(238, 23)
-        Me.Button8.TabIndex = 2
-        Me.Button8.Text = "Laporan Hasil Ujian"
-        Me.Button8.UseVisualStyleBackColor = True
+        Me.btlaporanhasilujian.Location = New System.Drawing.Point(6, 87)
+        Me.btlaporanhasilujian.Name = "btlaporanhasilujian"
+        Me.btlaporanhasilujian.Size = New System.Drawing.Size(238, 23)
+        Me.btlaporanhasilujian.TabIndex = 2
+        Me.btlaporanhasilujian.Text = "Laporan Hasil Ujian"
+        Me.btlaporanhasilujian.UseVisualStyleBackColor = True
         '
-        'Button9
+        'btkoreksiujian
         '
-        Me.Button9.Location = New System.Drawing.Point(6, 58)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(238, 23)
-        Me.Button9.TabIndex = 1
-        Me.Button9.Text = "Koreksi Hasil Ujian"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.btkoreksiujian.Location = New System.Drawing.Point(6, 58)
+        Me.btkoreksiujian.Name = "btkoreksiujian"
+        Me.btkoreksiujian.Size = New System.Drawing.Size(238, 23)
+        Me.btkoreksiujian.TabIndex = 1
+        Me.btkoreksiujian.Text = "Koreksi Hasil Ujian"
+        Me.btkoreksiujian.UseVisualStyleBackColor = True
         '
-        'Button10
+        'btalokasipesertaujian
         '
-        Me.Button10.Location = New System.Drawing.Point(6, 29)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(238, 23)
-        Me.Button10.TabIndex = 0
-        Me.Button10.Text = "Alokasi Peserta Ujian"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.btalokasipesertaujian.Location = New System.Drawing.Point(6, 29)
+        Me.btalokasipesertaujian.Name = "btalokasipesertaujian"
+        Me.btalokasipesertaujian.Size = New System.Drawing.Size(238, 23)
+        Me.btalokasipesertaujian.TabIndex = 0
+        Me.btalokasipesertaujian.Text = "Alokasi Peserta Ujian"
+        Me.btalokasipesertaujian.UseVisualStyleBackColor = True
         '
         'frmnavigasikaryawan
         '
@@ -163,14 +163,14 @@ Partial Class frmnavigasikaryawan
     End Sub
 
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents btmanajemenuserakun As Button
+    Friend WithEvents btmanajemenjadwal As Button
+    Friend WithEvents btmanajemenjurusan As Button
+    Friend WithEvents btmanajemensiswa As Button
+    Friend WithEvents btmanajemenkaryawan As Button
     Friend WithEvents lbwelcome As Label
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Button8 As Button
-    Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
+    Friend WithEvents btlaporanhasilujian As Button
+    Friend WithEvents btkoreksiujian As Button
+    Friend WithEvents btalokasipesertaujian As Button
 End Class

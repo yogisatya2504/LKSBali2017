@@ -11,7 +11,7 @@
     ' untuk id generate
     Friend strid As String = ""
 
-    Private Sub cls()
+    Friend Sub cls()
         procls = True
 
         ' reset form

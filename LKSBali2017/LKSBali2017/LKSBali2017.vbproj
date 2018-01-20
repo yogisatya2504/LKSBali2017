@@ -72,6 +72,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmmanajemenjurusan.Designer.vb">
+      <DependentUpon>frmmanajemenjurusan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmanajemenjurusan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmanajemenkaryawan.Designer.vb">
+      <DependentUpon>frmmanajemenkaryawan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmanajemenkaryawan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmanajemensiswa.Designer.vb">
+      <DependentUpon>frmmanajemensiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmanajemensiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmnavigasikaryawan.Designer.vb">
       <DependentUpon>frmnavigasikaryawan.vb</DependentUpon>
     </Compile>
@@ -145,6 +163,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmmanajemenjurusan.resx">
+      <DependentUpon>frmmanajemenjurusan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmanajemenkaryawan.resx">
+      <DependentUpon>frmmanajemenkaryawan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmanajemensiswa.resx">
+      <DependentUpon>frmmanajemensiswa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmnavigasikaryawan.resx">
       <DependentUpon>frmnavigasikaryawan.vb</DependentUpon>
     </EmbeddedResource>

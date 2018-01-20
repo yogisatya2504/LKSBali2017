@@ -32,4 +32,19 @@ Module modulkoneksi
             MsgBox(ex.ToString)
         End Try
     End Sub
+
+    Public Function generateid(s As String, sep As String)
+        Dim strid As String = sep
+
+        Dim dt As New DataTable
+        dt = bacadb(s)
+
+        Dim idx As Integer = Split(dt.Rows(0).Item(0).ToString, sep)(1) + 1
+        For i As Integer = idx.ToString.Length + strid.Length To 4
+            strid &= "0"
+        Next
+        strid &= idx
+
+        Return strid
+    End Function
 End Module

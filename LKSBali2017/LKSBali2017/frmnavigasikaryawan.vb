@@ -13,4 +13,19 @@
         frmlogin.cls()
         frmlogin.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btmanajemenkaryawan.Click
+        Me.Hide()
+        frmmanajemenkaryawan.Show()
+    End Sub
+
+    Private Sub btmanajemenjurusan_Click(sender As Object, e As EventArgs) Handles btmanajemenjurusan.Click
+        Me.Hide()
+        frmmanajemenjurusan.Show()
+    End Sub
+
+    Private Sub btmanajemensiswa_Click(sender As Object, e As EventArgs) Handles btmanajemensiswa.Click
+        Me.Hide()
+        frmmanajemensiswa.Show()
+    End Sub
 End Class

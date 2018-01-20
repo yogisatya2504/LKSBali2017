@@ -18,3 +18,6 @@ C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.xml
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.pdb
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmnavigasikaryawan.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenjurusan.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenkaryawan.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemensiswa.resources

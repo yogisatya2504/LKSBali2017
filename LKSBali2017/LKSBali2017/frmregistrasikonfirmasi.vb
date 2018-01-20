@@ -20,4 +20,8 @@
     Private Sub btsubmit_Click(sender As Object, e As EventArgs) Handles btsubmit.Click
         Me.Close()
     End Sub
+
+    Private Sub frmregistrasikonfirmasi_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        frmregistrasisiswa.cls()
+    End Sub
 End Class
