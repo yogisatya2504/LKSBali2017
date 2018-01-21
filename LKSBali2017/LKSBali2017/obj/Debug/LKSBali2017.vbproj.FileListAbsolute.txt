@@ -21,3 +21,6 @@ C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenjurusan.resources
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenkaryawan.resources
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemensiswa.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenujian.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenujiansiswa.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenuser.resources

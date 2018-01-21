@@ -140,11 +140,12 @@
             Else
                 jk = "Perempuan"
             End If
-            ' Simpan tabsiswa
-            simpandb("insert into tabsiswa values('" & strid & "','" & tbnama.Text & "','" & tbalamat.Text & "','" & dtptgllahir.Value.Month & "/" & dtptgllahir.Value.Day & "/" & dtptgllahir.Value.Year & "','" & tbnotelp.Text & "','" & jk & "','" & tbasalsekolah.Text & "','" & cbpiljurusan1.SelectedValue & "','" & cbpiljurusan2.SelectedValue & "','" & cbpiljurusan3.SelectedValue & "')")
 
             ' Simpan tabuser
             simpandb("insert into tabuser values('" & strid & "','" & strid & Format(dtptgllahir.Value, "MMddyy") & "','1')")
+
+            ' Simpan tabsiswa
+            simpandb("insert into tabsiswa values('" & strid & "','" & tbnama.Text & "','" & tbalamat.Text & "','" & dtptgllahir.Value.Month & "/" & dtptgllahir.Value.Day & "/" & dtptgllahir.Value.Year & "','" & tbnotelp.Text & "','" & jk & "','" & tbasalsekolah.Text & "','" & cbpiljurusan1.SelectedValue & "','" & cbpiljurusan2.SelectedValue & "','" & cbpiljurusan3.SelectedValue & "')")
 
             MsgBox("Data berhasil disimpan", MsgBoxStyle.Information, "Info")
 

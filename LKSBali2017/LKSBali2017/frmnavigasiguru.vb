@@ -4,7 +4,7 @@
 
     Private Sub frmnavigasiguru_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim dt As New DataTable
-        dt = bacadb("select nama from tabkaryawan inner join tabuser on tabuser.username = tabkaryawan.id where tabuser.role = '2' and tabkaryawan.id = '" & frmlogin.tbusername.Text & "'")
+        dt = bacadb("select nama from tabkaryawan inner join tabuser on tabuser.username = tabkaryawan.id where tabkaryawan.id = '" & frmlogin.tbusername.Text & "'")
 
         lbwelcome.Text = "Selamat datang, " & dt.Rows(0).Item(0) & "!"
     End Sub

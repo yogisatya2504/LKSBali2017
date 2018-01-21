@@ -90,6 +90,24 @@
     <Compile Include="frmmanajemensiswa.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmmanajemenujian.Designer.vb">
+      <DependentUpon>frmmanajemenujian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmanajemenujian.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmanajemenujiansiswa.Designer.vb">
+      <DependentUpon>frmmanajemenujiansiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmanajemenujiansiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmanajemenuser.Designer.vb">
+      <DependentUpon>frmmanajemenuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmanajemenuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmnavigasikaryawan.Designer.vb">
       <DependentUpon>frmnavigasikaryawan.vb</DependentUpon>
     </Compile>
@@ -171,6 +189,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmmanajemensiswa.resx">
       <DependentUpon>frmmanajemensiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmanajemenujian.resx">
+      <DependentUpon>frmmanajemenujian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmanajemenujiansiswa.resx">
+      <DependentUpon>frmmanajemenujiansiswa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmanajemenuser.resx">
+      <DependentUpon>frmmanajemenuser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmnavigasikaryawan.resx">
       <DependentUpon>frmnavigasikaryawan.vb</DependentUpon>

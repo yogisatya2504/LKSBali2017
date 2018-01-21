@@ -4,7 +4,7 @@
 
     Private Sub formnavigasikaryawan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim dt As New DataTable
-        dt = bacadb("select nama from tabkaryawan inner join tabuser on tabuser.username = tabkaryawan.id where tabuser.role = '3' and tabkaryawan.id = '" & frmlogin.tbusername.Text & "'")
+        dt = bacadb("select nama from tabkaryawan inner join tabuser on tabuser.username = tabkaryawan.id and tabkaryawan.id = '" & frmlogin.tbusername.Text & "'")
 
         lbwelcome.Text = "Selamat datang, " & dt.Rows(0).Item(0) & "!"
     End Sub
@@ -27,5 +27,20 @@
     Private Sub btmanajemensiswa_Click(sender As Object, e As EventArgs) Handles btmanajemensiswa.Click
         Me.Hide()
         frmmanajemensiswa.Show()
+    End Sub
+
+    Private Sub btmanajemenuserakun_Click(sender As Object, e As EventArgs) Handles btmanajemenuserakun.Click
+        Me.Hide()
+        frmmanajemenuser.Show()
+    End Sub
+
+    Private Sub btmanajemenjadwal_Click(sender As Object, e As EventArgs) Handles btmanajemenjadwal.Click
+        Me.Hide()
+        frmmanajemenujian.Show()
+    End Sub
+
+    Private Sub btalokasipesertaujian_Click(sender As Object, e As EventArgs) Handles btalokasipesertaujian.Click
+        Me.Hide()
+        frmmanajemenujiansiswa.Show()
     End Sub
 End Class

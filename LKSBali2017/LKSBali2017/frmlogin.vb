@@ -22,6 +22,7 @@
         dt.Rows.Add("1", "Siswa")
         dt.Rows.Add("2", "Guru")
         dt.Rows.Add("3", "Karyawan")
+        dt.Rows.Add("4", "Karyawan + Guru")
 
         cbrole.ValueMember = "id"
         cbrole.DisplayMember = "nama"
@@ -77,12 +78,18 @@
         If cbrole.SelectedValue = "1" Then
             ' Siswa
             frmnavigasisiswa.Show()
-        ElseIf cbrole.SelectedValue = "2" Then
+        ElseIf cbrole.SelectedValue = "2" Or cbrole.SelectedValue = "4" Then
             ' Guru
             frmnavigasiguru.Show()
-        ElseIf cbrole.SelectedValue = "3" Then
+        ElseIf cbrole.SelectedValue = "3" Or cbrole.SelectedValue = "4" Then
             ' Karyawan
             frmnavigasikaryawan.Show()
+        ElseIf cbrole.SelectedValue = "4" Then
+            ' Karyawan + Guru
+            frmnavigasikaryawan.Show()
+            frmnavigasiguru.Show()
+            ' agar posisi form navigasi guru berada di samping frmnavogasikaryawan
+            frmnavigasiguru.Location = New Point(frmnavigasikaryawan.Location.X + frmnavigasikaryawan.Width, frmnavigasikaryawan.Location.Y)
         End If
     End Sub
 End Class

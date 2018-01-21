@@ -128,8 +128,6 @@
         cls()
 
         stts = "update"
-        btsimpan.Enabled = True
-        bthapus.Enabled = True
     End Sub
 
     Private Sub bthapus_Click(sender As Object, e As EventArgs) Handles bthapus.Click
@@ -156,22 +154,22 @@
         End If
 
         If stts = "simpan" Then
-            ' simpan data karyawan
-            simpandb("insert into tabkaryawan values('" & tbkodekaryawan.Text & "','" & tbnip.Text & "','" & tbnamakaryawan.Text & "','" & dtptgllahir.Value.Month & "/" & dtptgllahir.Value.Day & "/" & dtptgllahir.Value.Year & "','" & tbalamat.Text & "','" & jk & "','" & tbnotelp.Text & "')")
-
             ' simpan data user -- role akan diubah di manajemen user
             ' Point 8
             simpandb("insert into tabuser values('" & tbkodekaryawan.Text & "','" & tbkodekaryawan.Text & Format(dtptgllahir.Value, "MMddyy") & "','')")
+
+            ' simpan data karyawan
+            simpandb("insert into tabkaryawan values('" & tbkodekaryawan.Text & "','" & tbnip.Text & "','" & tbnamakaryawan.Text & "','" & dtptgllahir.Value.Month & "/" & dtptgllahir.Value.Day & "/" & dtptgllahir.Value.Year & "','" & tbalamat.Text & "','" & jk & "','" & tbnotelp.Text & "')")
 
             MsgBox("Data berhasil disimpan!", MsgBoxStyle.Information, "Info")
         End If
 
         If stts = "update" Then
-            ' update data karyawan
-            simpandb("update tabkaryawan set nip = '" & tbnip.Text & "', nama = '" & tbnamakaryawan.Text & "', tgllahir = '" & dtptgllahir.Value.Month & "/" & dtptgllahir.Value.Day & "/" & dtptgllahir.Value.Year & "', alamat = '" & tbalamat.Text & "', jk = '" & jk & "', notelp = '" & tbnotelp.Text & "' where id = '" & tbkodekaryawan.Text & "'")
-
             ' update password user berdasarkan tgl
             simpandb("update tabuser set [password] = '" & tbkodekaryawan.Text & Format(dtptgllahir.Value, "MMddyy") & "' where username = '" & tbkodekaryawan.Text & "'")
+
+            ' update data karyawan
+            simpandb("update tabkaryawan set nip = '" & tbnip.Text & "', nama = '" & tbnamakaryawan.Text & "', tgllahir = '" & dtptgllahir.Value.Month & "/" & dtptgllahir.Value.Day & "/" & dtptgllahir.Value.Year & "', alamat = '" & tbalamat.Text & "', jk = '" & jk & "', notelp = '" & tbnotelp.Text & "' where id = '" & tbkodekaryawan.Text & "'")
 
             MsgBox("Data berhasil diperbaharui!", MsgBoxStyle.Information, "Info")
         End If
@@ -205,6 +203,9 @@
             End If
 
             tbnotelp.Text = dt.Rows(0).Item(6)
+
+            btsimpan.Enabled = True
+            bthapus.Enabled = True
         End If
     End Sub
 End Class
