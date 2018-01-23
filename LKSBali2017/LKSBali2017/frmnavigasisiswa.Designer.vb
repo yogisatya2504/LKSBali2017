@@ -22,10 +22,12 @@ Partial Class frmnavigasisiswa
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.btlogout = New System.Windows.Forms.Button()
         Me.btlihat = New System.Windows.Forms.Button()
         Me.btunduh = New System.Windows.Forms.Button()
         Me.lbwelcome = New System.Windows.Forms.Label()
+        Me.timer = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'btlogout
@@ -64,6 +66,10 @@ Partial Class frmnavigasisiswa
         Me.lbwelcome.TabIndex = 8
         Me.lbwelcome.Text = "Selamat datang, [ nama dari db ] !"
         '
+        'timer
+        '
+        Me.timer.Interval = 1000
+        '
         'frmnavigasisiswa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -85,4 +91,5 @@ Partial Class frmnavigasisiswa
     Friend WithEvents btlihat As Button
     Friend WithEvents btunduh As Button
     Friend WithEvents lbwelcome As Label
+    Friend WithEvents timer As Timer
 End Class

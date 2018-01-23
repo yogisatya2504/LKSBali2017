@@ -1,6 +1,9 @@
 ﻿Imports System.Data.SqlClient
 
 Module modulkoneksi
+    ' untuk apakah kembali ke navigasi guru atau navigasi karyawan
+    Public nav As String = ""
+
     Dim str As String = "Data Source=DESKTOP-D2PBETU\SQLEXPRESS;Initial Catalog=LKSBali2017;Integrated Security=True"
 
     Public Function bacadb(s As String)
@@ -47,4 +50,5 @@ Module modulkoneksi
 
         Return strid
     End Function
+
 End Module

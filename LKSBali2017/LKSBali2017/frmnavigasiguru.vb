@@ -19,4 +19,16 @@
         frmlogin.cls()
         frmlogin.Show()
     End Sub
+
+    Private Sub btkoreksi_Click(sender As Object, e As EventArgs) Handles btkoreksi.Click
+        Me.Hide()
+        frmkoreksihasiltest.Show()
+        nav = "guru"
+    End Sub
+
+    Private Sub btlihat_Click(sender As Object, e As EventArgs) Handles btlihat.Click
+        Me.Hide()
+        frmrekapitulasinilai.Show()
+        nav = "guru"
+    End Sub
 End Class

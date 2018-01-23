@@ -24,3 +24,8 @@ C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenujian.resources
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenujiansiswa.resources
 C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmmanajemenuser.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmdownloadsoal.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmhasiltesindividu.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmkoreksihasiltest.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmgrafikhasiltest.resources
+C:\Users\Yogi\Documents\Project VB.net\LKSBali2017\LKSBali2017\obj\Debug\LKSBali2017.frmrekapitulasinilai.resources

@@ -42,5 +42,17 @@
     Private Sub btalokasipesertaujian_Click(sender As Object, e As EventArgs) Handles btalokasipesertaujian.Click
         Me.Hide()
         frmmanajemenujiansiswa.Show()
+        nav = "karyawan"
+    End Sub
+
+    Private Sub btkoreksiujian_Click(sender As Object, e As EventArgs) Handles btkoreksiujian.Click
+        Me.Hide()
+        frmkoreksihasiltest.Show()
+    End Sub
+
+    Private Sub btlaporanhasilujian_Click(sender As Object, e As EventArgs) Handles btlaporanhasilujian.Click
+        Me.Hide()
+        frmrekapitulasinilai.Show()
+        nav = "karyawan"
     End Sub
 End Class
